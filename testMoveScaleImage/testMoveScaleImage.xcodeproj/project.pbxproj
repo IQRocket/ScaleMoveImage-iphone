@@ -1,0 +1,273 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E489D05516C651460081E4BB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E489D05416C651460081E4BB /* UIKit.framework */; };
+		E489D05716C651460081E4BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E489D05616C651460081E4BB /* Foundation.framework */; };
+		E489D05916C651460081E4BB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E489D05816C651460081E4BB /* CoreGraphics.framework */; };
+		E489D05F16C651460081E4BB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E489D05D16C651460081E4BB /* InfoPlist.strings */; };
+		E489D06116C651460081E4BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E489D06016C651460081E4BB /* main.m */; };
+		E489D06516C651470081E4BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E489D06416C651470081E4BB /* AppDelegate.m */; };
+		E489D06D16C651750081E4BB /* MoveScaleImage.m in Sources */ = {isa = PBXBuildFile; fileRef = E489D06C16C651750081E4BB /* MoveScaleImage.m */; };
+		E489D06F16C6543F0081E4BB /* QQ.png in Resources */ = {isa = PBXBuildFile; fileRef = E489D06E16C6543F0081E4BB /* QQ.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E489D05016C651460081E4BB /* testMoveScaleImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testMoveScaleImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E489D05416C651460081E4BB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E489D05616C651460081E4BB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E489D05816C651460081E4BB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E489D05C16C651460081E4BB /* testMoveScaleImage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "testMoveScaleImage-Info.plist"; sourceTree = "<group>"; };
+		E489D05E16C651460081E4BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E489D06016C651460081E4BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E489D06216C651470081E4BB /* testMoveScaleImage-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "testMoveScaleImage-Prefix.pch"; sourceTree = "<group>"; };
+		E489D06316C651470081E4BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E489D06416C651470081E4BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E489D06B16C651750081E4BB /* MoveScaleImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoveScaleImage.h; sourceTree = "<group>"; };
+		E489D06C16C651750081E4BB /* MoveScaleImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoveScaleImage.m; sourceTree = "<group>"; };
+		E489D06E16C6543F0081E4BB /* QQ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = QQ.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E489D04D16C651460081E4BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E489D05516C651460081E4BB /* UIKit.framework in Frameworks */,
+				E489D05716C651460081E4BB /* Foundation.framework in Frameworks */,
+				E489D05916C651460081E4BB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E489D04516C651450081E4BB = {
+			isa = PBXGroup;
+			children = (
+				E489D05A16C651460081E4BB /* testMoveScaleImage */,
+				E489D05316C651460081E4BB /* Frameworks */,
+				E489D05116C651460081E4BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E489D05116C651460081E4BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E489D05016C651460081E4BB /* testMoveScaleImage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E489D05316C651460081E4BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E489D05416C651460081E4BB /* UIKit.framework */,
+				E489D05616C651460081E4BB /* Foundation.framework */,
+				E489D05816C651460081E4BB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E489D05A16C651460081E4BB /* testMoveScaleImage */ = {
+			isa = PBXGroup;
+			children = (
+				E489D06E16C6543F0081E4BB /* QQ.png */,
+				E489D06B16C651750081E4BB /* MoveScaleImage.h */,
+				E489D06C16C651750081E4BB /* MoveScaleImage.m */,
+				E489D06316C651470081E4BB /* AppDelegate.h */,
+				E489D06416C651470081E4BB /* AppDelegate.m */,
+				E489D05B16C651460081E4BB /* Supporting Files */,
+			);
+			path = testMoveScaleImage;
+			sourceTree = "<group>";
+		};
+		E489D05B16C651460081E4BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E489D05C16C651460081E4BB /* testMoveScaleImage-Info.plist */,
+				E489D05D16C651460081E4BB /* InfoPlist.strings */,
+				E489D06016C651460081E4BB /* main.m */,
+				E489D06216C651470081E4BB /* testMoveScaleImage-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E489D04F16C651460081E4BB /* testMoveScaleImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E489D06816C651470081E4BB /* Build configuration list for PBXNativeTarget "testMoveScaleImage" */;
+			buildPhases = (
+				E489D04C16C651460081E4BB /* Sources */,
+				E489D04D16C651460081E4BB /* Frameworks */,
+				E489D04E16C651460081E4BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = testMoveScaleImage;
+			productName = testMoveScaleImage;
+			productReference = E489D05016C651460081E4BB /* testMoveScaleImage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E489D04716C651450081E4BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = E489D04A16C651450081E4BB /* Build configuration list for PBXProject "testMoveScaleImage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E489D04516C651450081E4BB;
+			productRefGroup = E489D05116C651460081E4BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E489D04F16C651460081E4BB /* testMoveScaleImage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E489D04E16C651460081E4BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E489D05F16C651460081E4BB /* InfoPlist.strings in Resources */,
+				E489D06F16C6543F0081E4BB /* QQ.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E489D04C16C651460081E4BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E489D06116C651460081E4BB /* main.m in Sources */,
+				E489D06516C651470081E4BB /* AppDelegate.m in Sources */,
+				E489D06D16C651750081E4BB /* MoveScaleImage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E489D05D16C651460081E4BB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E489D05E16C651460081E4BB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E489D06616C651470081E4BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E489D06716C651470081E4BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E489D06916C651470081E4BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "testMoveScaleImage/testMoveScaleImage-Prefix.pch";
+				INFOPLIST_FILE = "testMoveScaleImage/testMoveScaleImage-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E489D06A16C651470081E4BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "testMoveScaleImage/testMoveScaleImage-Prefix.pch";
+				INFOPLIST_FILE = "testMoveScaleImage/testMoveScaleImage-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E489D04A16C651450081E4BB /* Build configuration list for PBXProject "testMoveScaleImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E489D06616C651470081E4BB /* Debug */,
+				E489D06716C651470081E4BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E489D06816C651470081E4BB /* Build configuration list for PBXNativeTarget "testMoveScaleImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E489D06916C651470081E4BB /* Debug */,
+				E489D06A16C651470081E4BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E489D04716C651450081E4BB /* Project object */;
+}
